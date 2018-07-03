@@ -1,6 +1,5 @@
 {
-  "name": "react-three-visor-example",
-  "homepage": "https://kappys1.github.io/react-three-visor",
+  "name": "react-three-fbx-visor-example",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -8,8 +7,8 @@
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-three-visor": "*",
-    "react-scripts": "^1.1.1"
+    "react-scripts": "^1.1.1",
+    "react-three-fbx-visor": "*"
   },
   "scripts": {
     "start": "react-scripts start",

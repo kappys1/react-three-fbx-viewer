@@ -22,6 +22,12 @@
     "react/jsx-boolean-value": 0,
 
     // allow imports mixed with non-import statements at top of file
-    "import/first": 0
+    "import/first": 0,
+    "indent": [2, "tab", { "ignoreComments": true }],
+    "react/jsx-indent": [2, "tab"],
+    "no-tabs": 0,
+    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi": [2, "always"]
   }
 }

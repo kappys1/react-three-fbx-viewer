@@ -1,13 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import ExampleComponent from 'react-three-visor'
+import ReactThreeVisor from 'react-three-fbx-visor';
+let fbxUrl = require('./Busto.fbx');
 
 export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+	onLoad(e) {
+		console.log(e);
+	}
+
+	onError(e) {
+		console.log(e);
+	}
+	render () {
+		return (
+			<div>
+				<ReactThreeVisor url={fbxUrl} onLoad={this.onLoad} onError={this.onError}/>
+			</div>
+		);
+	}
 }

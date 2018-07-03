@@ -1,10 +1,9 @@
 {
-  "name": "react-three-visor",
+  "name": "react-three-fbx-visor",
   "version": "1.0.0",
   "description": "visor for threejs with react",
   "author": "kappys1",
   "license": "MIT",
-  "repository": "kappys1/react-three-visor",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -17,7 +16,11 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "three": "^0.94.0",
+    "three-fbxloader-offical": "^1.0.0",
+    "three-orbit-controls": "^82.1.0"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
