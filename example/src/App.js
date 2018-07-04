@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import ReactThreeVisor from 'react-three-fbx-visor';
-let fbxUrl = require('./Busto.fbx');
+import ReactThreeFbxViewer from 'react-three-fbx-viewer';
+
+let fbxUrl = require('./asd.fbx');
 
 export default class App extends Component {
 	onLoad(e) {
@@ -12,9 +13,14 @@ export default class App extends Component {
 		console.log(e);
 	}
 	render () {
+		let cameraPosition = {
+			x:150,
+			y:300,
+			z:350
+		}
 		return (
 			<div>
-				<ReactThreeVisor url={fbxUrl} onLoad={this.onLoad} onError={this.onError}/>
+				<ReactThreeFbxViewer cameraPosition={cameraPosition} url={fbxUrl} onLoading={this.onLoad} onError={this.onError}/>
 			</div>
 		);
 	}

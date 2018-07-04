@@ -1,7 +1,7 @@
 {
-  "name": "react-three-fbx-visor",
+  "name": "react-three-fbx-viewer",
   "version": "1.0.0",
-  "description": "visor for threejs with react",
+  "description": "fbx viewer with three.js for react",
   "author": "kappys1",
   "license": "MIT",
   "main": "dist/index.js",
@@ -26,6 +26,15 @@
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0"
   },
+  "contributors": ["https://threejs.org/examples/?q=fbx#webgl_loader_fbx"],
+  "keywords": [
+    "react",
+    "three.js",
+    "three",
+    "fbx",
+    "component",
+    "viewer"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
