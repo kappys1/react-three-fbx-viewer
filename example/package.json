@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
+  "homepage": "https://kappys1.github.io/react-three-fbx-viewer",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
