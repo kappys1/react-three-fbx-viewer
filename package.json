@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "dependencies": {
-    "three": "^0.94.0",
+    "three": "^0.125.0",
     "three-fbxloader-offical": "^1.0.0",
     "three-orbit-controls": "^82.1.0"
   },
